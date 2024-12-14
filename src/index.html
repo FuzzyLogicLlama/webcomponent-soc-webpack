@@ -1,0 +1,33 @@
+<!-- Demonstration / testing page for the web component defined in this project. Not required for the actual web component definitions. -->
+<!doctype html>
+<html>
+    <head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Web Component Demo</title>
+		<style>
+			:root {
+				font-family: system-ui,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,Helvetica,Arial,"Helvetica Neue",sans-serif
+			}
+
+			body {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				padding: 5vh;
+				background-color: antiquewhite;
+
+				@media (prefers-color-scheme: dark) {
+					background-color: #0e1118;
+				}
+			}
+		</style>
+    </head>
+    <body>
+		<!-- Test our web component here. The link tag that references the web component definition
+		will be automatically added by webpack (courtesy of HtmlWebpackPlugin) -->
+        <dialog-with-button button-text="Click Me!">
+			<span>This is some content for the dialog. It is inserted into the default slot of the web component.</span>
+        </dialog-with-button>
+    </body>
+</html>
