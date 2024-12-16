@@ -1,5 +1,5 @@
 # Separation of Concerns in Web Component Definitions
-This repository provides a minimal `webpack` starter for splitting [custom element](https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_custom_elements) definitions of [web components](https://developer.mozilla.org/en-US/docs/Web/API/Web_components) into separate JS, HTML, and CSS files. It uses webpack's `html-loader` to import HTML and CSS at build time.
+This repository provides a minimal `webpack` starter for splitting [custom element](https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_custom_elements) definitions of [web components](https://developer.mozilla.org/en-US/docs/Web/API/Web_components) into separate JS, HTML, and CSS files. It uses webpack's `html-loader` and `css-loader` to import HTML and CSS at build time.
 
 tl;dr: [run it](#run-it)
 
